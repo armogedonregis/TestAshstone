@@ -1,0 +1,23 @@
+@import 'normalize.scss';
+@import '_variables.scss';
+@import 'container.scss';
+@import 'header.scss';
+@import 'post.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
